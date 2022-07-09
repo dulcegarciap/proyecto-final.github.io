@@ -1,0 +1,60 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0;
+padding: 0%;}
+
+div, header,section,aside, article,main,footer,nav {box-sizing: border-box;
+display: block;}
+
+.logo {}
+
+.logo img {width: 70%;
+height: auto;}
+
+.navegador {background-color: rgb(255, 246, 212);}
+
+.accion {text-align: center;
+padding: 90px 0px;}
+
+.accion2 {text-align: center;
+    padding: 90px 0px;
+    border: 1px black solid;
+    border-radius: 150px;
+    padding: 50px;
+    background-color: rgb(170, 200, 255);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.404);}
+
+.item2 {display: block;
+margin: 3%;
+width: auto;
+height: auto;
+border: 1px black solid;
+border-radius: 150px;
+padding: 50px;
+background-color: rgb(255, 194, 170);
+box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.404);
+text-align: center;}
+
+.item1 {border: 1px black solid;
+    border-radius: 150px;
+    padding: 50px;
+    background-color: rgb(170, 200, 255);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.404);
+    text-align: center;}
+
+.btn {background-color: antiquewhite;
+    color: rgb(164, 134, 255);}
+
+
+
+.accion2 {padding: 1300px 0px;
+min-height: 450px;
+background-image: url(../img/sun.png);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: 180px auto;}
+
+.contenedor { }
+
+.items2 {background-color: #d7e1f2;
+min-height: 180px;}

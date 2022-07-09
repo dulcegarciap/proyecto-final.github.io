@@ -1,0 +1,35 @@
+/*Documento*/
+
+* {margin: 1%;}
+
+body {background-color: rgb(30, 65, 58);}
+
+h1 {font-family: 'Syne', sans-serif;
+font-weight:800;
+text-transform: uppercase;
+color: #ffd6cf;}
+
+h2,h3,h4 {font-family: 'Syne', sans-serif;
+font-weight:500;
+color: #ffd6cf;
+font-size: 2em;}
+
+p {font-family: 'Open Sans', sans-serif;
+color: #ffd6cf;}
+
+.lon {display: flex;
+flex-direction: row;
+align-items:center;
+width: 90%;
+min-height: 450px;}
+
+img { border-radius: 25px;
+    border: 2px solid #ffd6cf;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+    box-shadow:10px 10px #ffd6cf }
+
+footer {font-family: 'Open Sans', sans-serif;
+    color: #ffd6cf;}
+

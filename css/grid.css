@@ -1,0 +1,30 @@
+/*DOCUMENTO*/
+
+*{margin: 0%;
+padding: 0%;}
+
+body {font-family: 'Syne', sans-serif;}
+
+div, header,section,aside, article,main,footer,nav {display: block;
+box-sizing: border-box;}
+
+.texto {width: 100%;
+min-height: 1px;
+padding: 80px 0px;
+background-color: rgb(250, 130, 45);}
+
+h1 {text-align: center;}
+
+.texto p {text-align: center;}
+
+.items {background-color: rgb(203, 247, 255);
+min-height: 360px;
+background-image: url(../img/calent.jpg);
+background-size: 100% 100%;}
+
+@media only screen and (min-width: 576px) {
+.items {min-height: 160px;}
+}
+
+@media only screen and (min-width: 992px) {
+    .items {min-height: 200px;}}

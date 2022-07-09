@@ -1,0 +1,26 @@
+/*DOCUMENTO CSS*/
+
+*{font-size: 20px;
+margin: 0px;
+padding: 0px; }
+
+body {background-color: #f3e5d3 ; }
+
+h1{margin: 20px;
+color: #4f988d;
+font-size: 3em;
+text-align: center;}
+
+h2{color: #8a2be2;}
+
+h3{color: rgb(221, 120, 120);}
+
+h4{color: #4f988d;}
+
+h5{color: #e08543;}
+
+h5,h6{color: #5858a6;}
+
+.encabezado1{text-align: left;}
+
+

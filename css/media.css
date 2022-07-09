@@ -1,0 +1,39 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0;
+padding: 0;}
+
+header, nav, footer, div, article, aside, section
+
+div {box-sizing: border-box;}
+
+.container {display: flex;
+flex-direction: column;
+width: 100%;
+min-height: 450px;
+padding: 15px;
+margin: 50px auto;
+background-color: rgb(165, 173, 249);}
+
+.item {width: 100%;
+min-height: 150px;
+text-align: center;
+background: rgb(226, 226, 248);
+margin: 15px 0px;}
+
+@media only screen and (min-width:600px) {
+    .container{background: #a8d2f2;}
+    .item {background:rgb(69, 151, 154);}
+}
+
+@media only screen and (min-width:992px) {
+    .container{background: rgb(127, 127, 229);
+    justify-content: space-between;
+    flex-direction: row;}
+
+    .item {background:rgb(249, 223, 190) ;
+    text-align: left;
+    color:rgb(127, 127, 229);
+    font-size: 3em;
+    width: 45%;}
+}

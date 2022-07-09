@@ -1,0 +1,67 @@
+/*DOCUMENTO*/
+
+* {margin:1%;}
+
+body {background-color: antiquewhite;}
+
+h1 {display: block;
+background-color: rgb(255, 211, 248);
+width: 60%;
+box-shadow: 9px 9px black;
+outline-style: solid;
+font-family: 'Abril Fatface', cursive;
+font-size: 3em;
+color: black;}
+
+p, h5 {margin: 3%;
+font-family: 'Lato', sans-serif;
+font-size: 2em;}
+
+img {margin: 2%;
+outline-style: solid;
+width: 50%;
+color: #000000;
+box-shadow:10px 10px #000000;}
+
+.flex {display: flex;
+flex-direction: row;
+align-items:center;}
+
+h2 {display: block;
+background-color: rgb(211, 255, 231);
+width: 30%;
+box-shadow: 9px 9px black;
+outline-style: solid;
+text-align: center;
+font-family: 'Abril Fatface', cursive;
+font-size: 2em;
+color: black;}
+
+h3 {font-family: 'Lato', sans-serif;
+font-size: 2em;}
+
+footer {display: block;
+    background-color: rgb(210, 212, 254);
+    width: 100%;
+    height: 60px;
+    box-shadow: 5px 5px black;
+    outline-style: solid;
+    text-align:center ;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1em;
+    color: black;}
+
+.flex2 {display: flex;
+flex-direction:row-reverse ;
+align-items:center;}
+
+h4 {display: block;
+    background-color: rgb(250, 249, 200);
+    width: 40%;
+    height: 60%;
+    box-shadow: 9px 9px black;
+    outline-style: solid;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2em;
+    color: black;}

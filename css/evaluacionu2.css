@@ -1,0 +1,117 @@
+/*DOCUMENTO*/
+
+* {margin: 1% ;}
+
+body {background-color: rgb(0, 0, 0);}
+
+h1 {font-family: 'Yellowtail', cursive;
+font-size: 4em;
+letter-spacing: 2px;
+color: rgb(255, 255, 255);
+text-shadow:4px 4px  rgb(255, 0, 0);}
+
+h2 {font-family: 'Fjalla One', sans-serif;
+letter-spacing: 3px;
+font-size: 1.2em;
+font-style: italic;
+text-transform: uppercase;
+color: rgb(223, 223, 223);}
+
+p {font-family: 'Fjalla One', sans-serif;
+line-height: 1.6;
+font-size: 1.2em;
+color: rgb(253, 253, 253) ;}
+
+.img1 {border: 3px solid rgb(255, 4, 4);
+box-shadow: 8px 8px rgb(255, 4, 4);
+border-radius: 100%;
+width: 40%;
+height: 300px;}
+
+.fle2 {display: flex;
+flex-direction: row;
+align-items: center;}
+
+
+.glyphicon {color: rgb(249, 249, 249);
+font-size: 3em;}
+
+i.bi { display: inline-block;
+    color: #ffffff;
+    padding: 0.5em 0.5em;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.6em;}
+
+h3,h4 {font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 3px;
+    font-size: 1.7em;
+    color: rgb(253, 253, 253) ;
+    text-shadow:2px 2px  rgb(255, 0, 0);}
+
+.flex {display: flex;
+    flex-direction: row;
+    align-items: center;}
+
+.img2 {border: 3px solid rgb(255, 4, 4);
+width: 200%; 
+height: 300px; 
+box-shadow: 7px 7px rgb(255, 4, 4);}
+
+footer {color: #ffffff;
+font-family: 'Yellowtail', cursive;
+font-size: large;
+text-align: center;}
+
+a {color: #ffffff;
+font-family: 'Fjalla One', sans-serif;
+font-size: 1.5em;}
+
+.hs {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.2em;
+    color: rgb(253, 253, 253) ;}
+
+.fle3 {display: flex;
+    flex-direction:row-reverse;
+    align-items: center;}
+
+.img3 {border: 3px solid rgb(255, 4, 4);
+    box-shadow: 8px 8px rgb(255, 4, 4);
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;}
+
+h5 {font-family: 'Yellowtail', cursive;
+    text-align:center;
+    font-size: 2.7em;
+    color: rgb(255, 255, 255);
+    text-shadow:4px 4px  rgb(255, 0, 0);
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(35%, 2100%);}
+
+.div {display: flex;
+flex-direction: row;
+align-items: center;
+position: relative;}
+
+.bi2 {position: absolute;
+    top: 57%;
+    left: 48%;
+    transform: translate(35%, 2100%);}
+
+.redes {display: flex;
+flex-direction: row;
+align-items: center;
+position: absolute;
+top: 2%;
+left: 48%;
+transform: translate(90%, 0%);
+font-size: smaller;}
+
+.trab {font-family: 'Yellowtail', cursive;
+    text-align:center;
+    font-size: 2.7em;
+    color: rgb(255, 255, 255);
+    text-shadow:4px 4px  rgb(255, 0, 0);}

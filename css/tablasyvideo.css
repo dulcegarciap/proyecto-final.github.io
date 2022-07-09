@@ -1,0 +1,21 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0;
+padding: 0;
+}
+#cuerpo table {background-color: aquamarine;}
+
+.videos {width: 60%;
+display: flex
+min height 1px;
+margin: auto;
+background-color: blueviolet;
+padding: 15px;}
+
+.videos section {display:block;
+width: 50%;}
+
+.videos iframe, .videos video {width: 100%;
+height: auto;}
+
+.wi {width: 100%;}

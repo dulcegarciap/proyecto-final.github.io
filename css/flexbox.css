@@ -1,0 +1,22 @@
+/*DOCUMENTO */
+
+*{margin: 0;
+padding: 0;}
+
+.container {display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 500px;
+min-height: 450px;
+padding: 15px;
+margin: 50px auto;
+background-color: antiquewhite;}
+
+.item {width: 15%;
+margin: 0 0.1% 0 0.1%;
+height: 150px;
+text-align: center;
+background-color: cadetblue;}
+
+.dos {align-self: flex-end;}
+

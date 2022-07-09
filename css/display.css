@@ -1,0 +1,42 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0;
+padding: 0%;}
+
+body {font-family: 'Syne', sans-serif;}
+
+.cabecera {display: block;
+width: 100%;
+min-height: 80px;
+background-color: #9fa3f4;}
+
+h4 {text-align: center;
+padding-top: 5px;
+font-size: 3em;
+text-transform: capitalize;
+font-family: 'Syne', sans-serif;}
+
+#principal {display: block;
+width: 500px;
+min-height: 1px;
+margin: 30px auto;}
+
+.contenedor {display: flex;
+flex-direction: row;
+width: 100%;
+margin-bottom: 8px;
+background-color: rgb(189, 244, 164);
+padding: 15px;}
+
+.item {width:  164px;
+background-color: #96b6f3;
+height: 130px;
+margin: 0px 1%;
+border-radius: 15px;}
+
+.food1 {background-image: url(../img/food1.jpg);}
+.food2 {background-image: url(../img/food2.jpg);}
+.food3 {background-image: url(../img/food3.jpg);}
+.food4 {background-image: url(../img/food4.jpg);}
+.food5 {background-image: url(../img/food5.jpg);
+width: 325px;}
